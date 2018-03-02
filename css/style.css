@@ -1,0 +1,87 @@
+body {
+    background-image: url("../img/background1.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-left: 42px;
+    margin-top: 120px;
+    outline: 	none;
+}
+
+#main-container {
+    background-color: #1b1b1c;
+    width: 400px;
+    height: 300px;
+    margin-left: 585px;
+    margin-top: 220px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#red-container {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    margin-left: 585px;
+    margin-top: -340px;
+    border-top-left-radius: 20px;
+}
+
+#green-container {
+    width: 200px;
+    height: 40px;;
+    background-color: green;
+    margin-left: 785px;
+    margin-top: -40px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    margin-left: 85px;
+    color: white;
+}
+
+button:hover {
+    background-color: #58f409;
+}
+
+#number-container {
+    color: white;
+    margin-top: 10px;
+    margin-left: 130px;
+    font-size: 90px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#good-answer {
+    color: white;
+    margin-top: 10px;
+    margin-left: 71px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+#false-answer {
+    color: white;
+    margin-top: 10px;
+    margin-left: 71px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+h2 {
+    color: lime;
+    margin-left: 650px;
+    font-size: 75px;
+}
